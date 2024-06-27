@@ -1,0 +1,1312 @@
+ *
+{
+    box-sizing: border-box;
+    margin: 0px;
+    /* padding: 0px; */
+}  
+/* topbar strated */
+.topbar-parent
+{
+    background-color:  #3fbbc0;
+     display: flex;
+     padding: 10px;
+}
+ .callus
+{
+    margin-left: 750px;
+    color: white;
+    font-size: large;
+    /* padding-bottom: 20px; */
+    font-family: 'Times New Roman', Times, serif;
+    
+} 
+
+.monday
+{
+    margin-left: 125px;
+    color: white;
+    font-size: large;
+    font-weight:lighter;
+    font-family: 'Times New Roman', Times, serif;
+} 
+/* topbar ends */
+
+/* navigation bar starts */
+
+ nav
+{
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 16px;
+} 
+nav ul li 
+{
+    display: inline;
+    /* justify-content: center; */
+    word-spacing: 20px;
+    font-size: smaller;
+    font-family: system-ui;
+}
+nav ul
+{
+    display: inline;
+    justify-content: center;
+     margin-left: 100px; 
+}
+nav a img
+{
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:gray;
+    transition: 0.5s;
+}
+nav ul li a:hover
+{
+    color:  #3fbcc0b2;
+}
+.makean-appoitment a
+{
+     word-spacing: 3px;
+     font-weight: bold;
+     border-radius: 3px;
+     /* margin-left: 50px; */
+     background-color: #3fbbc0;
+     color: white;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+     transition: 0.5s;
+
+}
+.makean-appoitment a:hover
+{
+    background-color: #3fbcc0b2;
+    color: white;
+}
+/*  introduction starts  */
+
+/*  banner starts */
+.intro-parent{
+    background-image:url(https://bootstrapmade.com/demo/templates/Medicio/assets/img/slide/slide-3.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    height: 600px;
+    /* margin-bottom: 100px; */
+    
+}
+
+
+.intro-child
+{
+    text-align: center;
+     /* justify-content: center; */
+     /* display: flex; */
+    margin-left: 110px;
+    margin-right: 110px;
+    /* margin-top: 100px; */
+    background-color: rgba(245, 245, 245, 0.856);
+    line-height: 50px;
+    /* margin: 80px; */
+    padding-bottom: 35px;
+
+    /* box-sizing: border-box; */
+}
+.intro-hr hr
+{
+    background-color: #3fbbc0;
+    height: 4px;
+    border: none;
+    width: 100%;
+} 
+
+.intro-child p
+{
+    width: 1200px;
+    margin-left: 95px;
+    font-size: larger;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: gray;
+    font-family: system-ui;
+    
+}
+.intro-child h1
+{
+    margin-top: 20px;
+    font-family: system-ui;
+    /* color: rgba(0, 0, 0, 0.705); */
+}
+.intro-child a
+{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    background-color: #2f8a8d;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family:system-ui ;
+}
+.intro-child a:hover
+{
+    background-color: #3fbcc093;
+}
+             /* banner ends */
+
+
+
+            /* prescription starts */
+.prescription-parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 130px;
+    
+}
+.prescription-child
+{
+    height: 250px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.11);
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.child
+{
+    height: 0px;
+    width: 100%;
+    background-color: #3fbbc0;
+    position: absolute;
+    left: 0px;bottom: 0px;
+    transition: all .3s;
+    /* visibility: hidden; */
+
+}
+.prescription-child:hover .child
+{
+    height: 100%;
+    /* visibility: visible; */
+} 
+.prescription-child:hover h4,.prescription-child:hover p,.prescription-child:hover i
+{
+    color: white;
+}
+.prescription-parent i
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: #3fbcc0;
+}
+.prescription-child:hover .prescription-child i
+{
+    color: white;
+}
+.prescription-parent a
+{
+    color: black;
+    text-decoration: none;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.prescription-parent h4
+{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.76);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.prescription-parent p
+{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: large;
+    color: gray;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+               
+
+                          /* emergency starts */
+
+.emergency-parent
+{
+    text-align: center;
+    background-color: #3fbcc0ee;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+.emergency-h1
+{
+    color: rgba(255, 255, 255, 0.932);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.emergency-p
+{
+    font-size: large;
+    width: 1250px;
+    margin-left: 120px;
+    color:  rgba(255, 255, 255, 0.897);
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.emergency-a a
+{
+    color:  rgba(255, 255, 255, 0.911);
+    text-decoration: none;
+    font-size: larger;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    transition: 0.5s;
+}
+.emergency-a a:hover
+{
+    background-color: white;
+    color: #3fbbc0;
+}
+
+       /* aboutus started */
+
+        .aboutus-header
+       {
+           text-align: center;
+       } 
+       .aboutus-header h2
+       {
+           font-size: 30px;
+           color:  rgba(0, 0, 0, 0.801);
+            font-family: system-ui;
+       }
+       .aboutus-header hr
+       {
+           margin: 20px auto;
+           width: 60px;
+           height: 3px;
+           border: none;
+           background-color: #2f8a8d;
+       }
+       .aboutus-header p
+       {
+           font-size: larger;
+           margin-left: 120px;
+           margin-right: 120px;
+           color: gray;
+           font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+       }
+
+       .aboutus-child
+       {
+           display: flex;
+           margin-top: 40px;
+       }
+       .aboutus-img
+       {
+           margin-left: 135px;
+       }
+       .aboutus-img img
+       {
+           height: 500px;
+           width: 650px;
+       }
+       .aboutus-details
+       {
+           margin-left: 30px;
+           margin-right: 100px;
+       }
+       .aboutus-details h2{
+           font-size: 30px;
+           color: rgba(0, 0, 0, 0.705);
+           margin-bottom: 20px;
+       }
+       .aboutus-details p
+       {
+           color: gray;
+           font-size: larger;
+           line-height: 30px;
+           font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+       }
+       .aboutus-details i
+       {
+           color:rgb(6, 219, 235);
+           margin-bottom: 15px;
+       }
+
+
+                       /* about us ends  */
+
+
+                       /* about us  child starts */
+                       
+ .aboutuschild-parent
+ {
+     display: flex;
+     margin-top: 100px;
+     margin-left: 140px;
+     /* margin-right: 75px; */
+ }  
+ .aboutuschild-child
+ {
+     height: 200px;
+     width: 300px;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.11);
+     margin: 10px;
+ }                     
+ .aboutuschild-child h1
+ {
+     font-size: 40px;
+     color: rgba(0, 0, 0, 0.726);
+     font-weight: bolder;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     margin-left: 20px;
+     font-family: system-ui;
+ }   
+ .aboutuschild-child h1 i {
+     color: #3fbbc0;
+ }
+ .aboutuschild-child p{
+     font-family: system-ui;
+     margin-left: 20px;
+     color: rgba(0, 0, 0, 0.719);
+     margin-bottom: 30px;
+     /* font-weight: lighter; */
+ }
+ .aboutuschild-child a {
+     color:gray ;
+     font-weight: bold;
+     text-decoration: none;
+     font-family: system-ui;
+     margin-left: 20px;
+     transition: 0.5s;
+ }
+ .aboutuschild-child a i{
+     font-size: small;
+ }
+ .aboutuschild-child a:hover
+ {
+     color: #3fbbc0;
+ }
+ /* about us childs child */
+ /* font-size: 48px;
+ float: left;
+ color: #3fbbc0; */
+.aboutuschildschild
+{
+    display: flex;
+    margin-top: 100px;
+}
+.aboutuschildschild-childdetails
+{
+    margin-left: 150px;
+    /* margin: 20px; */
+    margin-top: 20px;
+
+}
+.aboutuschildschild-childdetails i
+{
+    font-size: 48px;
+    color: #3fbbc0;
+    /* margin-top: 50px; */
+}
+.aboutuschildschild-childdetails h4
+{
+    font-size: larger;
+    font-family: system-ui;
+    color: rgba(0, 0, 0, 0.719);
+    margin-bottom: 10px;
+
+}
+.aboutuschildschild-childdetails p
+{
+    font-family: system-ui;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+ .aboutuschildschild-img
+{
+    margin-left: 20px;
+} 
+.aboutuschildschild-img img
+{
+    height: 400px;
+    width :600px;
+}
+
+                /* about us ends */
+
+                 /* services starts */
+
+.services-parent
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.services-header 
+{
+    text-align: center;
+    font-family: system-ui;
+    font-size: 20px;
+}
+.services-header h1
+{
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 40px;
+}
+.services-header hr
+{
+    margin: 20px auto;
+    border: none;
+    width: 60px;
+    background-color: #3fbbc0;
+    height: 3px;
+}
+.services-header p
+{
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: large;
+    color: gray;
+}
+ .serviceschild-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    margin-left:100px;
+    margin-right: 30px;
+    /* margin: 100px; */
+    
+
+} 
+.serviceschild
+{
+    height: 150px;
+    width: 390px;
+    margin: 30px;
+    text-align: center;
+}
+.serviceschild hr
+{
+    margin: 20px auto;
+    width: 60px;
+    height: 3px;
+    background-color: #3fbbc0;
+    border: none;
+}
+.serviceschild i
+{
+    font-size: 30px;
+    color: #3fbbc0;
+    background-color: white;
+    border-radius: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.11);
+}
+.serviceschild h2
+{
+    font-family: system-ui;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.712);
+    /* transition: 0.1s; */
+
+}
+.serviceschild a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.644);
+    transition: 0.5s;
+}
+
+.serviceschild h2{
+    transition: 0.5s;
+}
+.serviceschild h2 :hover .serviceschild a
+{
+    color: #3fbbc0;
+}
+.serviceschild p
+{
+    font-family: system-ui;
+    font-size: 15px;
+    /* width: 500px; */
+    /* margin-right: 30px; */
+    color: gray;
+}
+
+
+                                /* make an appoitment */
+
+
+.MAKEANAPPOINTMENT-parent
+{
+    background-color: #3fbcc017;
+}
+.MAKEANAPPOINTMENT-header
+{
+    text-align: center;
+    font-family: system-ui;
+    margin-bottom: 50px;
+}
+.MAKEANAPPOINTMENT-header h2
+{
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 30px;
+    margin-top: 50px;
+}
+.MAKEANAPPOINTMENT-header hr
+{
+    margin: 20px auto;
+    border: none;
+    height: 3px;
+    width: 60px;
+    background-color: #3fbbc0;
+}
+.MAKEANAPPOINTMENT-header p
+{
+     font-family: system-ui;
+     color: gray;
+     margin-left: 130px;
+    margin-right: 130px;
+    font-size: large;
+}
+.MAKEANAPPOINTMENT-details1
+{
+    /* display: inline; */
+    display: flex;
+}
+.MAKEANAPPOINTMENT-child
+{
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+form input
+{
+    margin: 10px;
+    height: 40px;
+    width: 410px;
+}
+.MAKEANAPPOINTMENT-details1 select 
+{
+    height:40px;
+    width: 410px;
+    margin: 13px;
+    color: gray;
+    /* font-weight: bold; */
+     font-size: 15px; 
+    font-family: system-ui;
+}
+textarea
+{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+::placeholder
+{
+    color: gray;
+}
+.makeanappoitment a
+{
+    background-color: #3fbbc0;
+    color: white;
+    margin-left: 540px;
+    text-decoration: none;
+    font-family: system-ui;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.makeanappoitment a:hover
+{
+    background-color: #3fbcc0b2;
+}
+.MAKEANAPPOINTMENT-details input:focus ,.MAKEANAPPOINTMENT-details1 input:focus
+     {
+        border: 2px solid #03C4EB; 
+     }
+     textarea
+     {
+         outline: none;
+         border: 2px solid gray;
+     }
+ 
+
+
+                            /* departmnt started */
+ 
+                            
+
+.departmnt-parent
+{
+    margin-top: 50px;
+    font-family: system-ui;
+}
+.departmnt-header
+{
+    text-align: center;
+    /* font-weight: system-ui; */
+
+}
+.departmnt-header h2
+{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.836);
+    /* font-weight: system-ui; */
+
+}
+.departmnt-header hr
+{
+    margin: 20px auto;
+    height: 3px;
+    width: 60px;
+    border: none;
+    background-color: #3fbbc0;
+}
+.departmnt-header p
+{
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: large;
+    color: gray;
+    margin-bottom: 50px;
+}
+.departmnt-child
+{
+    display: flex;
+}
+.departmnt-details
+{
+    margin-left: 140px;
+    width: 900px;
+}
+.departmnt-content
+{
+    margin-bottom: 20px;
+    height: 90px;
+    padding-left: 10px;
+    line-height: 20px;
+    transition: all 0.5s;
+}
+.departmnt-content a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    font-size: 16px;
+}
+.departmnt-content a :hover 
+{
+    color: #2f8a8d;
+}
+.departmnt-content p
+{
+    color: gray;
+}
+.departmnt-content:hover
+{
+    background-color: #3fbcc02d;
+}
+.departmnt-heading
+{
+    margin-left: 30px;
+}
+.departmnt-heading h2
+{
+    color: #3fbbc0;
+    margin-bottom: 25px;
+
+}
+.departmnt-heading p
+{
+    color: gray;
+    font-size: large;
+    font-style: italic;
+}
+.departmnt-img
+{
+    display: flex;
+    margin-top: 10px;
+}
+.departmnt-img img
+{
+    height: 250px;
+    width: 300px;
+    /* margin-top: 50px; */
+}
+.departmnt-img p{
+    margin-left: 15px;
+    margin-right: 130px;
+    font-family: system-ui;
+    font-style: normal;
+}
+                           /* testimonials started */
+                         
+.testimonials-parent
+{
+    margin-top: 100px;
+}                     
+.testimonials-header
+{
+    text-align: center;
+    font-family: system-ui;
+    margin-bottom: 30px;
+}      
+.testimonials-header h2{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.719);
+}
+.testimonials-header hr{
+    width: 60px;
+    margin: 20px auto;
+    height: 3px;
+    border: none;
+    background-color: #3fbbc0;
+}
+.testimonials-header p{
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: large;
+    color: gray;
+}
+.testimonials-child{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    
+}
+.testimonials-contents{
+    margin: 30px;
+    background-color:#3fbcc028;
+    padding: 20px;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+   
+}
+.testimonials-contents p{
+    color: gray;
+    font-family: system-ui;
+    font-size: 16px;
+    font-style: italic;
+}
+.testimonials-contents i{
+    color: #3fbcc069;
+    font-size: 25px;
+}
+.testimonials-contents img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-top: 15px;  
+    border: 3px solid white;
+}
+.testimonials-contents h3{
+    color: rgba(0, 0, 0, 0.685);
+    font-family: system-ui;
+    margin-left: 15px;
+}
+.testimonials-contents h4{
+    color: gray;
+    margin-left: 15px;
+}
+
+                                     /* doctors started  */
+
+.doctors-parent{
+    background-color:#3fbcc011;
+    text-align: center;
+}
+.doctors-header h2{
+    font-family: system-ui;
+    font-size: 35px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.doctors-parent hr{
+    margin: 20px auto;
+    border: none;
+    background-color: #3fbbc0;
+    height: 3px;
+    width: 60px;
+}
+.doctors-parent p{
+    font-family: system-ui;
+    font-size: large;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+.doctors-child1{
+    display: flex;
+    margin-left: 135px;
+    margin-right: 80px;
+}
+.doctors-child2{
+    margin: 10px;
+    position: relative;
+}
+.doctors-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+/* .doctors-img{
+    position: relative;
+} */
+.doctors-hover{
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.719);
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 105px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: gray;
+    font-size: large;
+    transition: 0.5s;
+    left: 0px;
+}
+.doctors-hover i{
+    color: rgba(0, 0, 0, 0.582);
+    margin-left: 20px;
+}
+.doctors-child2:hover .doctors-hover {
+    visibility: visible ;
+}
+.doctors-name{
+    background-color: white;
+    padding: 30px;
+}
+.doctors-name h3{
+    color: rgba(0, 0, 0, 0.685);
+    font-family: system-ui;
+    /* padding: 20px; */
+    /* margin-top: 30px*/
+}
+.doctors-name span{
+    color: gray;
+
+}
+                                     /* doctors ended */
+
+                                     /* gallery started  */
+
+.gallery-parent{
+    margin-top: 50px;
+}            
+.gallery-header{
+    text-align: center;
+    font-family: system-ui;
+
+}
+.gallery-header h2{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.gallery-header hr{
+    margin: 20px auto;
+    width: 60px;
+    height: 3px;
+    border: none;
+    background-color: #3fbcc0;
+}
+.gallery-header p{
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: large;
+    color: gray;
+    margin-bottom: 50px;
+}
+.gallery-child{
+    display: flex;
+}
+.gallery-imgs img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3fbcc0;
+    border-spacing: 3px;
+
+}
+.gallery-child{
+    margin-left: 130px;
+}
+
+.gallery-imgs{
+    margin-left:20px;
+}
+                               /* frequently asked question started  */
+
+.frequently-parent{
+    margin-top: 80px;
+    background-color: #3fbcc00e;
+}
+.frequently-header{
+    text-align: center;
+    font-family: system-ui;
+}
+.frequently-header h2{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.685);
+    /* margin-top: 50px; */
+}
+.frequently-header hr{
+    margin: 20px auto;
+    height: 3px;
+    width: 60px;
+    border: none;
+    background-color: #3fbbc0;
+
+}
+.frequently-header p{
+    color: gray;
+    font-size: large;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.frequently-child{
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    /* margin-bottom: 50px; */
+}
+.frequently-details{
+    font-family: system-ui;
+    
+}
+.frequently-details summary{
+    color: rgba(0, 0, 0, 0.671);
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 00.5s;
+}
+.frequently-details p{
+    color: gray;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.frequently-details summary:hover{
+    color: #3fbbc0;
+}
+.frequently-details hr{
+    color: #3fbbc0;
+}
+
+                               /* frequently aked question ended */
+.contact-parent{
+    margin-top: 80px;
+}
+.contact-header{
+    text-align: center;
+    font-family: system-ui;
+}
+.contact-header h2{
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.685);
+}
+.contact-header hr{
+    margin: 20px auto;
+    height: 3px;
+    width: 60px;
+    border: none;
+    background-color: #3fbbc0;
+}
+.contact-header p{
+    color: gray;
+    font-size: large;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
+
+                               /* contact ended */
+
+
+                               /* our adress started */
+.ouradress-parent{
+    display: flex;
+    margin-top: 80px;
+}
+.ouradress-left{
+    margin-left: 130px;
+}
+.ouradress-left2{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.075);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: system-ui;
+    text-align: center;
+}
+.ouradress-left2 h2{
+    color: rgba(0, 0, 0, 0.562);
+}
+.ouradress-left2 i{
+    font-size: 32px;
+    color: #3fbbc0;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #c5ebec;
+}
+.ouradress-left1{
+    display: flex;
+    margin-top: 20px;
+    font-family: system-ui;
+    text-align: center;
+    
+}
+.ouradress-leftdetails {
+    box-shadow: 3px 3px 3px 3px  rgba(0, 0, 0, 0.205);
+    margin: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.ouradress-leftdetails h2{
+    color: rgba(0, 0, 0, 0.5);
+}
+.ouradress-leftdetails p{
+    color: gray;
+}
+.ouradress-leftdetails i{
+    color: #3fbbc0;
+    font-size: 32px;
+    border: 2px dotted  #c5ebec;
+    border-radius: 50%;
+    padding: 8px;
+}
+.ouradress-right {
+     /* margin-right: 130px; */
+    margin-left: 20px; 
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+}
+.ouradress-contents{
+    display: flex;
+    width: 650px;
+    outline: none;
+    /* justify-content: center; */
+    
+}
+.ouradress-contents input{
+    outline: none ;
+}
+
+.ouradress-2 input{
+    outline: none;
+}
+.ouradress-right textarea:focus{
+    border: 2px solid #3fbbc0;
+}
+
+
+.ouradress-right textarea{
+    outline: none;
+         border: 2px solid gray;
+}
+
+
+.ouradress-contents input:focus,.ouradress-2 input:focus{
+    border: 2px solid #3fbbc0;
+}
+
+
+.ouradress-right a{
+    margin-left: 250px;
+    text-decoration: none;
+    background-color:#3fbbc0;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    font-family: system-ui;
+    font-size: large;
+    transition: 0.5s;
+}
+
+.ouradress-right a:hover{
+    background-color: #3fbcc0a1;
+}
+
+
+.ouradress-contents input{
+    width: 300px;
+}
+
+.ouradress-2 input{
+    width: 625px;
+}
+::placeholder
+{
+    color: gray;
+    margin-left: 20px;
+
+}
+                               /* our adress ended */
+                               /* bottom started */
+.bottom-parent{
+    display: flex;
+    background-color: whitesmoke;
+    /* margin-left: 130px; */
+    margin-top: 50px;
+}
+
+.bottom1{
+margin-top: 50px;
+font-family: system-ui;
+margin-left: 130px;
+width: 250px;
+}
+
+.bottom1 h3{
+    color: rgba(0, 0, 0, 0.658);
+    font-family: system-ui;
+    margin-bottom: 20px;
+}
+
+.bottom1 p{
+    font-size: small;
+    margin-bottom: 20px;
+}
+.bottom1 i{
+    font-size: larger;
+    background-color: #03C4EB;
+    color: rgba(255, 255, 255, 0.986);
+    margin: 4px;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.bottom2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px ;
+    margin-left: 60px;
+
+}
+.bottom2 h3{
+    color: rgba(0, 0, 0, 0.63);
+    font-family: system-ui;
+    margin-bottom: 20px;
+
+}
+
+.bottom2 a{
+    text-decoration: none;
+    font-family: system-ui;
+    color: gray;
+    margin-bottom: 8px;
+    transition: 0.5s;
+}
+
+.bottom2 a:hover{
+    color: #3fbbc0;
+}
+.bottom3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.bottom3 h3{
+    font-family: system-ui;
+    color: rgba(0, 0, 0, 0.699);
+    /* font-size: px; */
+    /* margin-left: 30px   ; */
+    margin-bottom: 20px;
+    /* margin-left: 30px; */
+
+}
+
+.bottom3 a{
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 8px;
+    font-family: system-ui;
+    transition: 0.5s;
+}
+.bottom3 a:hover{
+    color: #3fbbc0;
+}
+
+.bottom4{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.bottom4 h3{
+    color: rgba(0, 0, 0, 0.671);
+    margin-bottom: 20px;
+    font-family: system-ui;
+}
+.bottom4 p{
+    font-family: system-ui;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.bottom4 form a{
+    background-color:#3fbbc0;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    color: white;
+    font-family: system-ui;
+}
+                                                 /*bottom ended  */
+
+ .final-attribute{
+     background-color: rgba(128, 128, 128, 0.24);
+     text-align: center;
+     padding: 35px;
+     font-family: system-ui;
+     font-size: 15px;
+     line-height: 25px;
+     color: gray;
+ }                
+ .final-attribute strong{
+     color: rgba(0, 0, 0, 0.664);
+ }               
+ .final-attribute a{
+     text-decoration: none;
+     color:#3fbbc0;
+ }                 
+
+                                                    /* bottom ended */
